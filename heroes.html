@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dan Isamu">
+        <meta name="description" content="Regras e Referência para o Megagame Autropolis">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="Styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="Images/Autropolis.jpg">
+        <title>Autropolis - Heróis</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>CÉUS DE AUTRÓPOLIS</h1>
+            <p id="center">Um jogo de 3-9 jogadores sobre superheróis, com controle de área, diplomacia e estratégia.</p>
+
+            <div class="gallery">
+                <a href="index.html">
+                    <div class="link">
+                        <div class="overlay">
+                            <p>Regras</p>
+                        </div>
+                        <img src="Images/Autropolis.jpg">
+                    </div>
+                </a>
+
+                <a href="neutral.html">
+                    <div class="link">
+                        <div class="overlay">
+                            <p>Neutros</p>
+                        </div>
+                        <img src="Images/Neutral.png">
+                    </div>
+                </a>
+
+                <a href="villains.html">
+                    <div class="link">
+                        <div class="overlay">
+                            <p>Vilões</p>
+                        </div>
+                        <img src="Images/Villains.png">
+                    </div>
+                </a>
+            </div>
+
+
+            <section>
+                <h2>HERÓIS</h2>
+                <h3>Pacificador</h3>
+                <p class="super">
+                    1P inicial.<br>
+                    1 Combate, 5 Bravado, 1 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    -Duelista [II] (+1 Combate em 1v1)<br>
+                    <strong>Ideais:</strong><br>
+                    -Veterano (+1 Reflexos)<br>
+                    -Coragem (+1 Bravado em 1v2)<br>
+                    -Justiça (+1 Combate em 1v1)<br>
+                    <strong>Poderes:</strong><br>
+                    -Missão Cumprida (Combate: se em 1v1, faz Ataque que causa 2 ferimentos)<br>
+                    -Segurança (Planejamento: +2 Reflexos para Heróis no Banco)<br>
+                    -Perseguição (Combate: se alvo anunciar Fuga, anula e causa 1 ferimento)<br>
+                    <strong>Superpoder:</strong><br>
+                    Tiro Certeiro (Planejamento: Kill garantida em 1v1)<br>
+                </p>
+
+                <h3>Vigilante</h3>
+                <p class="super">
+                    1P inicial.<br>
+                    0 Combate, 5 Bravado, 3 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    -Vigia [I] (Sabe os Ideais dos Supers inimigos no Planejamento)<br>
+                    <strong>Ideais:</strong><br>
+                    -Traços (Segue um Super)<br>
+                    -Preparado (Se Super-Alvo for para Local-Alvo, Super-Alvo não vai
+                    para nenhum Local)<br>
+                    -Alerta (Escolhe um Local. Se esse Local for atacado, descobre os
+                    atacantes e pode redirecionar um Herói p/ ele)<br>
+                    <strong>Poderes:</strong><br>
+                    -Bomba de Fumaça (Combate: bloqueia Ação inimiga)<br>
+                    -Detetive (Planejamento: +1 Combate quando na Delegacia)<br>
+                    -Proteção (Planejamento: Escolhe uma Missão. Se essa Missão for
+                    atacada, pode redirecionar um Herói p/ ela)<br>
+                    <strong>Superpoder:</strong><br>
+                    -Cidade em Vigia (Planejamento: Todos os Supers inimigos anunciam
+                    primeiro durante Combate)<br>
+                </p>
+
+                <h3>Trovão</h3>
+                <p class="super">
+                    0P inicial.<br>
+                    1 Combate, 6 Bravado, 1 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    -Defensor [I] (+1 Combate em Local Heróico)<br>
+                    <strong>Ideais:</strong><br>
+                    -Heroísmo (+1 Bravado quando minoria)<br>
+                    -Equipe (+1 Combate em 2v2)<br>
+                    -Estóico (cura 1 Ferimento de si)<br>
+                    <strong>Poderes:</strong><br>
+                    -Resistência (Combate: todos os ataques inimigos nesta rodada são
+                    redirecionados para Trovão. Toma outra Ação)<br>
+                    -Relâmpago (Planejamento: escolhe dois Locais. Pode escolher em
+                    qual Local vai ir depois de todos revelarem seus Locais)<br>
+                    -Superforça (Combate: força uma re-rolagem de qualquer Super na
+                    batalha)<br>
+                    <strong>Superpoder:</strong><br>
+                    Herói Invicto (Planejamento: +2 Bravado, defende dois locais ao
+                    mesmo tempo)<br>
+                </p>
+
+                <h3>Luminosa</h3>
+                <p class="super">
+                    4P inicial.<br>
+                    0 Combate, 5 Bravado, 1 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    -Suporte [I] (+1 Bravado para aliados juntos da Luminosa)<br>
+                    <strong>Ideais:</strong><br>
+                    -Apoio (+1 Combate para um aliado)<br>
+                    -Cura (Cura 1 ferimento de qualquer Herói)<br>
+                    -Evolução (+2P para um aliado, se ele vencer)<br>
+                    <strong>Poderes:</strong><br>
+                    -Adrenalina (Combate: Defesa, mas não ativa e ignora cooldown)<br>
+                    -Médica (Planejamento: +2 Combate quando no Hospital)<br>
+                    -Guarda (Planejamento: +1 Bravado em defesa de Missão)<br>
+                    <strong>Superpoder:</strong><br>
+                    Segunda Chance (Planejamento: Revive um aliado com 2 Ferimentos e 5HP)<br>
+                </p>
+
+                <h3>Mística</h3>
+                <p class="super">
+                    2P inicial.<br>
+                    1 Combate, 4 Bravado, 2 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    -Karma [I] (+1 Combate em Local Neutro)<br>
+                    <strong>Ideais:</strong><br>
+                    -Aura (Troca Desastre para Nada imediatamente neste turno)<br>
+                    -Fantasma (Converte local Vilanesco para Neutro imediatamente)<br>
+                    -Dominância (+1 Combate em Local Heróico)<br>
+                    <strong>Poderes:</strong><br>
+                    -Portal (Planejamento: Troca dois Locais - Supers que foram em um,
+                    vão em outro)<br>
+                    -Mentes Fracas (Planejamento: +1 Combate quando no Governo)<br>
+                    -Possessão (Planejamento: NPC [0/3/2] com 2 Ferimentos em Local
+                    Neutro)<br>
+                    <strong>Superpoder:</strong><br>
+                    Espíritos do Submundo (Planejamento: converte 3 Locais)<br>
+                </p>
+
+                <h3>Ahkan</h3>
+                <p class="super">
+                    2P inicial.<br>
+                    1 Combate, 4 Bravado, 2 Reflexos.<br>
+                    <strong>Passivas:</strong><br>
+                    Oferenda [I] (+1P a cada inimigo que cair em Armadilha ou Cilada)<br>
+                    <strong>Ideais:</strong><br>
+                    -Armadilha (-1 Combate aos inimigos em Local-Alvo)<br>
+                    -Agilidade (Fugas são imediatas, se feitas no primeiro turno)<br>
+                    -Ousadia (+1 Reflexos)<br>
+                    <strong>Poderes:</strong><br>
+                    -Veneno (Combate: faz Ataque que causa 2 ferimentos)<br>
+                    -Contra-Ataque (Combate: nega um Ataque e faz um Ataque contra o agressor)<br>
+                    -Cilada (Planejamento: -2 Bravado aos inimigos em Local-Alvo)<br>
+                    <strong>Superpoder:</strong><br>
+                    Emboscada Tribal (Planejamento: Todos os inimigos em um 
+                    local levam 2 Ferimentos de imediato)<br>
+                </p>
+
+
+            </section>
+</main>
+
+    </body>
+</html>
