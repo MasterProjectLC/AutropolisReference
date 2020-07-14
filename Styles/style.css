@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: Square;
+    src: url('Robot Crush.otf');
+}
+
+
+html {
+    background-color:black;
+}
+
+section article {
+    float: none;
+    padding: 20px;
+    width: 50%;
+}
+
+section aside {
+    float: none;
+    padding: 20px;
+    width: 40%;
+}
+
+section.mid article {
+    float: none;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+section.mid aside {
+    float: none;
+    padding: 20px;
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    color: white;
+    font-family: Square;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+h3 {
+    font-size: 30px;
+    margin-left: 20%;
+    font-family: Lato;
+    margin-top: 30px;
+}
+
+p#center {
+    text-align:center;
+}
+
+p {
+    left: auto;
+    font-size: 18px;
+    font-family: Lato;
+    width: 60%;
+    line-height: 30px;
+    margin: 1px auto;
+}
+
+    p.box {
+        float: none;
+        background-color: gray;
+        border: 5px solid white;
+        padding: 5px;
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }

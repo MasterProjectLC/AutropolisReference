@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dan Isamu">
+        <meta name="description" content="Regras e Referência para o Megagame Autropolis">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="Styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="Images/pp.png">
+        <title>Autropolis</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>CÉUS DE AUTRÓPOLIS</h1>
+            <section>
+                <p id="center">Um jogo de 3-9 jogadores sobre superheróis, com controle de área, diplomacia e estratégia.</p>
+
+                <h2>O JOGO</h2>
+                <p>
+                    Jogadores se dividem em 3 times: Heróis, Vilões e Neutros. A missão dos Heróis é defender a cidade de Autrópolis por 8 turnos;
+                    a missão dos Vilões é obter 8 Engenhocas para montar a Máquina do Apocalipse; Neutros agem de forma independente entre si, e sua
+                    missão é simplesmente acumular 18 de Prestígio (P), que é a moeda principal do jogo.
+                </p>
+
+                <p>
+                    O palco principal do jogo são os 5 prédios estratégicos da cidade: Banco, Prédio do Governo, Hospital, Laboratório e Delegacia.
+                    Cada uma deles causa um Desastre diferente caso atacado: Heróis precisam protegê-los, enquanto que Vilões devem atacá-los.
+                </p>
+
+                <h2>O SUPER</h2>
+                <p>
+                    Cada jogador controla um (ou mais) personagens, chamados de "Supers". Estes são os indíviduos com habilidades extra-humanas
+                    que defendem ou atacam a cidade de Autrópolis.
+                    Cada Super tem certos atributos...<br>
+                    1- <strong>Atributo</strong>: cada Super tem 3 Atributos - Combate, Bravado e Reflexo. Estes serão explicados melhor adiante.<br>
+                    2- <strong>Passiva</strong>: estas são habilidades passivas que podem ser desbloqueadas e melhoradas.<br>
+                    3- <strong>Ideal</strong>: a todo turno, Supers escolhem um Ideal dentre 3 disponíveis. São habilidades passivas ou ativas que focam em um aspecto específico do Super.<br>
+                    4- <strong>Poder</strong>: habilidades ativas que gastam 1P ao serem ativadas.<br>
+                    5- <strong>Superpoder</strong>: habilidades super poderosas que gastam 5P para serem ativadas.
+                </p>
+
+                <p class="box">
+                    <strong>FERIMENTOS E RUÍNA</strong><br>
+                    Supers podem ser feridos em Combate ou com certas habilidades. Se, a qualquer momento, um Super estiver com 4 Ferimentos, ele torna-se Arruinado e sai permanentemente do jogo.
+                    O jogador que controla aquele Super ainda pode participar criando estratégias e planejando com seu time, mas seu Super não pode mais tomar nenhuma Ação nem receber Prestígio.
+                </p>
+
+                <h2>TURNOS</h2>
+                <p>
+                    O jogo é dividido em turnos: cada turno possui 4 fases. Durante cada fase, jogadores de cada equipe discutem estratégias para o turno. Essas fases são:<br>
+                    1- Preparação<br>
+                    2- Planejamento<br>
+                    3- Combate<br>
+                    4- Resolução
+                </p>
+
+                <h3>PREPARAÇÃO</h3>
+                <p>
+                    Durante esta fase, Supers gastam Prestígio para melhorar suas habilidades. Suas ações possíveis durante esta fase são:<br>
+                    1- <strong>Recuperação</strong> [0P]: perde a Fase de Preparação e cura 1 Ferimento.<br>
+                    2- <strong>Treino</strong> [2P]: melhora um de seus atributos. Custo aumenta em 1P para cada Treino.<br>
+                    3- <strong>Experimentação</strong> [2P]: desbloqueia uma Passiva.<br>
+                    4- <strong>Missão</strong> [4P]: junte Prestígio com outros Supers e abra uma Missão contra um Super específico. Missões são
+                    locais que podem ser atacados - caso sejam bem-sucedidas, o alvo leva 1 Ferimento.<br>
+                    <br>
+                    Adicionalmente, jogadores também escolhem seus Ideais e negociam com outras equipes para contratar ou serem contratados.
+                </p>
+
+
+                <h3>PLANEJAMENTO</h3>
+                <p>Durante esta fase, Supers ativam Poderes e/ou Superpoderes de Planejamento e escolhem os Locais os quais irão atacar. Essa escolha permanece secreta até a Fase de Combate.</p>
+
+
+                <h3>COMBATE</h3>
+                <p>Durante esta fase, Supers são enviados para os Locais que escolheram e entram em combate caso encontrem Supers de uma equipe inimiga.</p>
+
+                <p>
+                    Um Combate ocorre em rodadas. Supers, na ordem inversa de Reflexo, anunciam suas ações. Se houver um Empate, a ordem segue Neutros>Vilões>Heróis. Assim que todas as Ações forem anunciadas, elas são resolvidas em qualquer ordem.
+                    Ações:<br>
+                    -<strong>Ataque</strong>: rola 1d6+Combate. Se esse valor for maior ou igual ao Bravado do alvo, o alvo leva um Ferimento.<br>
+                    -<strong>Defesa</strong>: nega até 1 Ferimento contra o alvo durante esta rodada de Combate. Tem cooldown de 1 rodada.<br>
+                    -<strong>Fuga</strong>: ao fim desta rodada de Combate, o Super sairá do Local e do Combate.<br>
+                    -<strong>Poder</strong>: ativa um Poder de Combate.<br>
+                </p>
+
+                <p class="box">
+                    <strong>TERRITÓRIO</strong><br>
+                    Cada Local pertence a um Território: Heróico, Neutro e Vilanesco. O Território de um Local afeta o Desastre que ocorre nele.
+                </p>
+
+                <p>
+                    Ao fim do Combate, todos os Supers vencedores que ainda estiverem no Local recebem 1P.
+                    Se os Heróis ganharam, o Local vai de Neutro para Heróico ou de Vilanesco para Neutro.
+                    Se os Vilões ganharam, eles devem escolher ou ativar o Desastre no local ou transferir o Local de Heróico para Neutro ou de Neutro para Vilanesco.
+                    Se um Neutro ganhar, ele pode escolher ganhar como Herói, como Vilão ou não fazer nada.
+                </p>
+
+
+                <h3>RESOLUÇÃO</h3>
+                <p>
+                    Durante esta fase, equipes podem anunciar que completaram seus objetivos. As Equipes de Heróis e Vilões também ganham caso todo Super do time inimigo estiver Arruinado.
+                    Depois disso, cada Super recebe 1P.
+                </p>
+
+
+                <h2>DESASTRES</h2>
+                <p><strong>BANCO</strong><br>
+                    Heróico: Nada<br>
+                    Neutro: +1 Prestígio p/ todos os Vilões<br>
+                    Vilanesco: +2 Prestígio p/ todos os Vilões
+</p>
+
+                <p>
+                    <strong>GOVERNO</strong><br>
+                    [Começa Heróico]<br>
+                    H: Nada<br>
+                    N: +1 Engenhoca<br>
+                    V: +1 Engenhoca, converte outro local p/ Vilanesco
+                </p>
+
+                <p>
+                    <strong>HOSPITAL</strong><br>
+                    [A equipe que tiver controle sobre o Hospital pode curar 2 Ferimentos de graça todo turno]</p>
+
+                <p>
+                    <strong>LABORATÓRIO</strong><br>
+                    H: Nada<br>
+                    N: +1 Engenhoca<br>
+                    V: +2 Engenhoca
+                </p>
+
+                <p>
+                    <strong>DELEGACIA</strong><br>
+                    [Começa Heróico]<br>
+                    H: Nada<br>
+                    N: +1 Combate p/ Vilões prox turno<br>
+                    V: +2 Combate p/ Vilões prox turno
+                </p>
+
+
+
+            </section>
+        </main>
+
+    </body>
+</html>
