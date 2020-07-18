@@ -9,29 +9,39 @@ html {
     background-color:dimgray;
 }
 
-section article {
-    float: none;
-    padding: 20px;
-    width: 50%;
+.wrap {
+    width: 60%;
+    position: relative;
+    background-color: gray;
+
+    border: 1px;
+    padding-top: 15px;
+    padding-bottom: 10vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vw;
 }
 
-section aside {
-    float: none;
-    padding: 20px;
+.left {
+    width: 60%;
+    float: left;
+    background-color: gray;
+}
+
+.right {
     width: 40%;
+    margin-left: 60%;
+    background-color: gray;
 }
 
-section.mid article {
-    float: none;
-    padding: 20px;
-    margin: 0 auto;
-    width: 50%;
+.little {
+    padding: 20px 20px;
 }
 
-section.mid aside {
-    float: none;
-    padding: 20px;
-    width: 100%;
+.space {
+    padding: 60px 60px;
 }
 
 h1, h2, h3, p {
@@ -53,63 +63,61 @@ h1 {
 
 h2 {
     font-size: 50px;
-    margin-left: 20%;
+    margin-left: 3%;
 }
 
 h3 {
     font-size: 30px;
-    margin-left: 20%;
+    margin-left: 3%;
     margin-top: 30px;
 }
 
-p#center {
-    text-align: center;
-}
-
-section {
-    background-color: gray;
-    border: 1px;
-    padding-top: 15px;
-    padding-bottom: 10vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-top: 5vw;
+h3#first {
+    margin-top: 10px;
 }
 
 p {
     left: auto;
-    width: 60%;
-    margin: 1px auto;
+    width: 80%;
+    margin: 1px auto 10px 10px;
 
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 20px;
+    font-size: 14px;
     font-family: Lato;
 }
 
-    p.box {
-        float: none;
-        display: block;
-        background-color: darkgrey;
-
-        border: 5px solid white;
-        padding: 10px;
-        margin-top: 30px;
-        margin-bottom: 30px;
+    p#center {
+        text-align: center;
+        margin: 1px auto;
+        font-size: 20px;
     }
+
+div.box {
+    position:relative;
+    display: block;
+    background-color: darkgrey;
+    border: 5px solid white;
+    padding: 10px;
+    margin: 30px 10px 30px auto;
+}
+
+        div.box p {
+            width: 100%;
+            margin: 1px 10px 10px auto;
+        }
 
     p.super {
         line-height: 20px;
+        width: 50%;
+        margin-left: 3%;
     }
 
         p.super strong {
-            line-height: 30px;
+            line-height: 25px;
         }
 
 strong {
-    font-size: 21px;
+    font-size: 15px;
 }
 
 /* gallery section -------------------- */
