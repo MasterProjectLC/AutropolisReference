@@ -44,14 +44,18 @@ html {
     padding: 60px 60px;
 }
 
+@media (max-width: 1300px) {
+  .tall_space {
+      padding: 120px 60px;
+  }
+}
+
 h1, h2, h3, p {
     color: white;
     margin-bottom: 0;
 }
 
 h1, h2, h3 {
-    color: white;
-    margin-bottom: 0;
     font-family: Square;
 }
 
@@ -108,12 +112,25 @@ div.box {
 
     p.super {
         line-height: 20px;
-        width: 50%;
+        width: 60%;
         margin-left: 3%;
     }
 
         p.super strong {
             line-height: 25px;
+        }
+
+        p.super p {
+          width: 100vw;
+        }
+
+        p.super i {
+          position: relative;
+          line-height: 1px;
+            font-size: 12px;
+            margin-left: 1vw;
+            color: lightgrey;
+
         }
 
 strong {
@@ -168,7 +185,8 @@ strong {
         .gallery div.link div.overlay p {
             display: block;
             position: absolute;
-            top: 4%;
+            top: 2vw;
+            left: 1vw;
             right: auto;
             width: 40%;
             height: 100%;
